@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+-->
+<!-- $Id: pom.xml 642118 2008-03-28 08:04:16Z reinhard $ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>goldfish</artifactId>
+        <groupId>org.gold</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <name>spring-one</name>
+    <artifactId>spring-one</artifactId>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
+                    <compilerArguments>
+                        <verbose />
+                        <bootclasspath>${java.home}/lib/rt.jar;${java.home}/lib/jce.jar</bootclasspath>
+                    </compilerArguments>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.26</version>
+                <configuration>
+                    <webDefaultXml>src/main/resources/jetty.xml</webDefaultXml>
+                    <contextPath>/</contextPath>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>80</port>
+                        </connector>
+                    </connectors>
+                    <scanIntervalSeconds>0</scanIntervalSeconds>
+                    <scanTargetPatterns>
+                        <scanTargetPattern>
+                            <directory>src/main/webapp</directory>
+                            <includes>
+                                <include>**/*.xml</include>
+                                <include>**/*.properties</include>
+                            </includes>
+                        </scanTargetPattern>
+                    </scanTargetPatterns>
+                    <systemProperties>
+                        <!--<systemProperty>
+                            <name>
+                                javax.xml.parsers.DocumentBuilderFactory
+                            </name>
+                            <value>
+                                com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+                            </value>
+                        </systemProperty>
+                        <systemProperty>
+                            <name>
+                                javax.xml.parsers.SAXParserFactory
+                            </name>
+                            <value>
+                                com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl
+                            </value>
+                        </systemProperty>
+                        <systemProperty>
+                            <name>
+                                javax.xml.transform.TransformerFactory
+                            </name>
+                            <value>
+                                com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl
+                            </value>
+                        </systemProperty>-->
+                        <systemProperty>
+                            <name>org.eclipse.jetty.util.URI.charset</name>
+                            <value>UTF-8</value>
+                        </systemProperty>
+                    </systemProperties>
+                </configuration>
+            </plugin>
+
+            <!--<plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.7</version>
+                <configuration>
+                    &lt;!&ndash;<webApp>${basedir}/target/classes</webApp>&ndash;&gt;
+                    <webAppSourceDirectory>src/main/resources</webAppSourceDirectory>
+                    <scanIntervalSeconds>6</scanIntervalSeconds>
+                    <contextPath>/</contextPath>
+                    <webDefaultXml>src/main/resources/jetty.xml</webDefaultXml>
+                    &lt;!&ndash; <jettyEnvXml>src/main/resources/jetty-env.xml</jettyEnvXml>&ndash;&gt;
+
+                    &lt;!&ndash;扫描目标文件&ndash;&gt;
+                    <scanTargetPatterns>
+                        <scanTargetPattern>
+                            <directory>src/main/webapp</directory>
+                            <includes>
+                                <include>**/*.xml</include>
+                                <include>**/*.properties</include>
+                            </includes>
+                        </scanTargetPattern>
+                    </scanTargetPatterns>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>80</port>
+                            <headerBufferSize>80000</headerBufferSize>
+                        </connector>
+                    </connectors>
+                    <stopKey>stop</stopKey>
+                    <stopPort>8089</stopPort>
+
+
+                    <systemProperties>
+                        &lt;!&ndash;设置URL编码&ndash;&gt;
+                        <systemProperty>
+                            <name>org.eclipse.jetty.util.URI.charset</name>
+                            <value>UTF-8</value>
+                        </systemProperty>
+                    </systemProperties>
+
+                </configuration>
+            </plugin>-->
+
+
+
+            <plugin>
+
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                    </archive>
+                    <webResources>
+                        <resource>
+                            <!-- this is relative to the pom.xml directory -->
+                            <directory>src/main/resources/</directory>
+                            <targetPath>WEB-INF/classes</targetPath>
+                            <includes>
+                                <include>**/*.*</include>
+                            </includes>
+                            <filtering>true</filtering>
+                        </resource>
+                        <resource>
+                            <!-- this is relative to the pom.xml directory -->
+                            <directory>src/main/resources</directory>
+                            <targetPath>WEB-INF/classes</targetPath>
+                            <filtering>true</filtering>
+                        </resource>
+                    </webResources>
+                </configuration>
+
+            </plugin>
+
+
+        </plugins>
+    </build>
+
+    <dependencies>
+        <!--dependency>
+      <groupId>gold</groupId>
+      <artifactId>[the artifact id of the block to be mounted]</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency-->
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <!--<dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>-->
+
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>servlet-api-2.5</artifactId>
+            <version>6.1.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>gold</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+
+
+
+
+
+
+</project>
