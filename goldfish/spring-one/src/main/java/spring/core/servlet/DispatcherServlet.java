@@ -13,8 +13,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.net.URI;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -112,9 +113,9 @@ public class DispatcherServlet extends HttpServlet {
         //ResourceUtils
         try {
             if (location.toLowerCase().contains("classpath:")) {
-
+                ClassLoader loader= getClass().getClassLoader();
+               URL url= loader.getResource(location.substring(10));
                 ClassPathResource classPathResource = new ClassPathResource(location.substring(10));
-
                 is = classPathResource.getInputStream();
 
             }
