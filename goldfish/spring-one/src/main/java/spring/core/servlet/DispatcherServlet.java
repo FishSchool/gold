@@ -114,9 +114,9 @@ public class DispatcherServlet extends HttpServlet {
         try {
             if (location.toLowerCase().contains("classpath:")) {
                 ClassLoader loader= getClass().getClassLoader();
-               URL url= loader.getResource(location.substring(10));
-                ClassPathResource classPathResource = new ClassPathResource(location.substring(10));
-                is = classPathResource.getInputStream();
+
+                is=loader.getResourceAsStream(location.substring(10));
+
 
             }
             contextConfig.load(is);

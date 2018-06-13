@@ -8,14 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="core" target="1.8" />
-      <module name="gold" target="1.8" />
-      <module name="goldfish" target="1.8" />
+      <module name="gold" target="1.5" />
+      <module name="goldfish" target="1.5" />
       <module name="nihao" target="1.8" />
       <module name="spring-one" target="1.8" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
