@@ -6,6 +6,8 @@
  **/
 package code.commonEntity;
 
+import code.enums.Code;
+
 /**
  * TODO:
  * @Version 1.0.0
@@ -44,6 +46,8 @@ public class Person {
 
     @Override
     public String toString() {
+
+
         return "Person{" +
                 "name='" + name + '\'' +
                 ", nikeName='" + nikeName + '\'' +

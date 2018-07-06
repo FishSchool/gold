@@ -1,3 +1,5 @@
+package string;
+
 import com.alibaba.fastjson.JSONObject;
 import lombok.Data;
 import org.apache.commons.lang.StringUtils;

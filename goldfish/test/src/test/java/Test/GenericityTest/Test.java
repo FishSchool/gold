@@ -21,10 +21,7 @@ public class Test  {
     public static void main(String[] args) {
 
 
-        Generic<Person> generic = new Generic<Person>() {};
 
-        Class<Person> tClass = generic.getTClass();
-        tClass.getTypeName();
         /*List<Person> people = new ArrayList<>();
 
         Person person = new Person();

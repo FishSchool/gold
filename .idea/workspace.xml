@@ -7,15 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4d7e134-084e-4c97-b74b-b422d89b83ca" name="Default" comment="泛型类实现">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/genericity/result/Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/RtnData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Flag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goldfish/test/src/main/java/json/Json.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goldfish/goldfish.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/goldfish.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goldfish/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goldfish/test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goldfish/test/src/main/java/StringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/test/src/main/java/StringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/core/src/main/java/utils/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/core/src/main/java/utils/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/spring-one/spring-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/spring-one/spring-one.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/test/src/main/java/StringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/test/src/main/java/string/StringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goldfish/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/goldfish/test/test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,32 +41,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goldfish/test/src/main/java/StringsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goldfish/spring-one/src/main/java/spring/mvc/action/DemoAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Person.java">
+      <file leaf-file-name="Ace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Ace.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +73,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="26" column="29" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,11 +82,114 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Generic.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/genericity/result/Generic.java">
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+              <folding>
+                <element signature="class#Order#0" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Code.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Flag.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Msg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Msg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Status.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RtnData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/RtnData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="26" />
+              <folding>
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +199,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -132,8 +243,22 @@
         <option value="$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/test.java" />
         <option value="$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/BadClass.java" />
         <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/genericity/result/Result.java" />
-        <option value="$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java" />
         <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/genericity/result/Generic.java" />
+        <option value="$PROJECT_DIR$/goldfish/test/src/main/java/json/jsons.java" />
+        <option value="$PROJECT_DIR$/goldfish/test/src/main/java/json/Json.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/entity.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Code.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Person.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Msg.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Msg.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Code.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Flag.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Staus.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Status.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Page.java" />
+        <option value="$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/RtnData.java" />
+        <option value="$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Data.java" />
       </list>
     </option>
   </component>
@@ -172,7 +297,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-29" />
     <option name="y" value="13" />
     <option name="width" value="1386" />
@@ -188,6 +313,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +365,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gold" type="462c0819:PsiDirectoryNode" />
+              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -249,113 +386,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
+              <item name="commonEntity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gold" type="b2602c69:ProjectViewProjectNode" />
               <item name="gold" type="462c0819:PsiDirectoryNode" />
               <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-one" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-one" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gold" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gold" type="462c0819:PsiDirectoryNode" />
-              <item name="goldfish" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="GenericityTest" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="commonEntity" type="462c0819:PsiDirectoryNode" />
+              <item name="Page.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,7 +463,7 @@
       </extension>
     </configuration>
     <configuration name="StringsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsTest" />
+      <option name="MAIN_CLASS_NAME" value="string.StringsTest" />
       <module name="test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -578,12 +626,21 @@
       <workItem from="1528780711989" duration="1158000" />
       <workItem from="1529661119212" duration="1111000" />
       <workItem from="1530069261632" duration="1587000" />
-      <workItem from="1530856007862" duration="4354000" />
+      <workItem from="1530856007862" duration="4943000" />
+      <workItem from="1530866586784" duration="5587000" />
     </task>
+    <task id="LOCAL-00001" summary="泛型类实现">
+      <created>1530860720091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530860720091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14063000" />
+    <option name="totallyTimeSpent" value="20239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -604,26 +661,26 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49621785" weight="0.32777777" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" weight="0.31333333" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40243903" visible="true" weight="0.2217484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.40243903" visible="true" weight="0.2238806" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="6" sideWeight="0.597561" side_tool="true" weight="0.2655068" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24962178" />
       <window_info anchor="right" id="Key Promoter X" order="4" weight="0.32980332" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49621785" weight="0.32777777" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -635,92 +692,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="泛型类实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="泛型类实现" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/goldfish/spring-one/src/main/java/spring/core/annotation/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/spring-one/src/main/java/spring/core/annotation/MyRequestParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/spring-one/src/main/java/spring/service/impl/DemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/spring-one/src/main/java/spring/service/IDemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/pattern/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/pattern/singleton/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/pattern/strategy/one/OperationAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/pattern/strategy/two/Alipay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/pattern/strategy/one/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/pattern/template/one/Cricket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
@@ -888,93 +869,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/Generics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/GoodClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="49" />
-          <folding>
-            <element signature="e#258#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/ResultBeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="47" column="55" lean-forward="true" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/BadClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/TClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="169" column="9" lean-forward="true" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/GenericsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/main/java/StringsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/Generics.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/GoodClass.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/Status.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/test.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/ResultBeanUtil.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/BadClass.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/TClass.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/Page.java" />
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/entity/GenericsUtils.java" />
     <entry file="file://$PROJECT_DIR$/goldfish/spring-one/src/main/java/spring/mvc/action/DemoAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -985,20 +892,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java">
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/genericity/result/Generic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="437">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/main/java/string/StringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/genericity/result/Generic.java">
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/main/java/json/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Code.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/enums/Flag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Ace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/test/src/test/java/Test/GenericityTest/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding>
+            <element signature="class#Order#0" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/RtnData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goldfish/core/src/main/java/code/commonEntity/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
