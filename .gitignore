@@ -27,3 +27,4 @@ hs_err_pid*
 goldfish/test/test.iml
 .idea/libraries/Maven__org_slf4j_slf4j_api_unknown.xml
 .idea/uiDesigner.xml
+.idea/workspace.xml
