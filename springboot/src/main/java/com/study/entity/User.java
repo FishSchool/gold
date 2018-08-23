@@ -4,22 +4,23 @@ package com.study.entity;
 import lombok.Data;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * @author zyq
  */
-
-@Table
+@Entity
+@Table(name = "User")
 @Data
-public class User {
+public class User implements Serializable {
 
+    private static final long serialVersionUID = 4801983855739760046L;
     /**
      * 主键id
      */
     @Id
+    @GeneratedValue
     private long userId;
     /**
      * 名称
