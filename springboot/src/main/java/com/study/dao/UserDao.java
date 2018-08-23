@@ -16,4 +16,6 @@ public interface UserDao extends CrudRepository<User,Long>, JpaPersistentEntity<
      * @return
      */
     List<User> findUserByAge(Integer age);
+
+    List<User> findAllByNameEquals(String name);
 }
