@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/gold.iml" filepath="$PROJECT_DIR$/gold.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldfish/goldfish.iml" filepath="$PROJECT_DIR$/goldfish/goldfish.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldfish/spring-one/spring-one.iml" filepath="$PROJECT_DIR$/goldfish/spring-one/spring-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/goldfish/test/test.iml" filepath="$PROJECT_DIR$/goldfish/test/test.iml" />
     </modules>
   </component>
