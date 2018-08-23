@@ -25,6 +25,6 @@ hs_err_pid*
 .idea/uiDesigner.xml
 goldfish/test/test.iml
 .idea/workspace.xml
-/springboot/target/
 /.idea/workspace.xml
-.idea/workspace.xml
+/springboot/target/
+
