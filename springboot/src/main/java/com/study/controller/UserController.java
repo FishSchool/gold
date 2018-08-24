@@ -54,8 +54,22 @@ public class UserController {
         return "更新成功";
     }
 
+
+    @ApiOperation(value = "用户修改",tags = "")
+    @DeleteMapping(value = "/updateUser")
+    @ResponseBody
+    public String deleteUser(@RequestBody @ApiParam(name="用户对象",value="传入json格式",required=true)  long id) {
+        try {
+            userService.deleteUser(id);
+        } catch (Exception e){
+            log.error("删除用户失败");
+            return "删除失败";
+        }
+        return "删除成功";
+    }
+
     @ApiOperation(value = "用户详情",tags = "")
-    @PostMapping(value = "/${id}")
+    @PostMapping(value = "/{id}")
     @ResponseBody
     public User getUser( @RequestBody @ApiParam(name="id",value="传入json格式",required=true)@PathVariable(name = "id")  long id) {
         User user = new User();

@@ -69,4 +69,9 @@ public class UserServiceImpl implements UserService {
         Optional<User> userOptional = userDao.findById(id);
         return userOptional.get();
     }
+
+    @Override
+    public void deleteUser(long id) {
+        userDao.deleteById(id);
+    }
 }
