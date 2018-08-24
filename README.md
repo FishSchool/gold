@@ -2,7 +2,8 @@
 ##  环境
 
  >  
-  - 工具ide,Lombok,Guava...
+  - 开发工具:Intellij IDEA
+  - 插件:Lombok,Guava...
   - JDK1.8 
   - Spring Boot2.0
   - Spring Data JPA
