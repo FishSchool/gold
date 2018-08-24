@@ -11,6 +11,9 @@
   - 数据库MYSQL8.0.12
 
 ### 描述
- >
+ 
    + 采用RESTFul方式请求接口
    + 后期会添加 Spring cloud,Spring Security,Dubbo,Kafka,Zookeeper,ElasticSearch
+   
+   
+   > 直接运行springboot项目中的启动类即可运行项目
