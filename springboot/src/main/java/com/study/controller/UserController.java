@@ -96,12 +96,15 @@ public class UserController {
     }
 
 
-
+    /**
+     * thymeleaf测试
+     * @param test
+     * @return
+     */
     @ApiOperation(value = "测试",tags = "")
     @GetMapping(value = "/test")
-    @ResponseBody
     @ApiParam(value = "test",required = true)
-    public String test( HttpServletRequest request, HttpServletResponse response,String test) {
-        return "这是一个测试";
+    public String test( String test) {
+        return "page/user/list";
     }
 }
