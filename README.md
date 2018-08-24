@@ -5,6 +5,6 @@
   - Spring Boot2.0
   - Spring Data JPA
   - Swagger2
-  - 数据库MYSQL8.0
+  - 数据库MYSQL8.0.12
   
   
