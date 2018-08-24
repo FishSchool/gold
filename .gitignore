@@ -28,3 +28,4 @@ goldfish/test/test.iml
 /.idea/workspace.xml
 /springboot/target/
 
+/log/
