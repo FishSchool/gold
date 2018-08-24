@@ -101,7 +101,7 @@ public class UserController {
      * @param test
      * @return
      */
-    @ApiOperation(value = "测试",tags = "")
+    @ApiOperation(value = "thymeleaf测试",tags = "")
     @GetMapping(value = "/test")
     @ApiParam(value = "test",required = true)
     public String test( String test) {
