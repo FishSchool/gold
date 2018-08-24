@@ -58,7 +58,7 @@ public class UserController {
     @ApiOperation(value = "用户修改",tags = "")
     @DeleteMapping(value = "/updateUser")
     @ResponseBody
-    public String deleteUser(@RequestBody @ApiParam(name="用户对象",value="传入json格式",required=true)  long id) {
+    public String deleteUser(@RequestBody @ApiParam(name="id",value="传入json格式",required=true)  long id) {
         try {
             userService.deleteUser(id);
         } catch (Exception e){
