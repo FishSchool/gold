@@ -13,4 +13,6 @@ public interface UserService {
 
     List<User> queryUserList(User user, Pageable pageable);
 
+    User getUser(long id);
+
 }
