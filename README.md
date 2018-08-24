@@ -2,6 +2,7 @@
 ##  环境
 
  >  
+  - 工具ide,Lombok,Guava...
   - JDK1.8 
   - Spring Boot2.0
   - Spring Data JPA
