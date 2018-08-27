@@ -12,6 +12,7 @@
 
     <modules>
         <module>goldfish</module>
+        <module>springboot</module>
 
     </modules>
 
